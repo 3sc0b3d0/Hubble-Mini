@@ -1,0 +1,235 @@
+.navbar {
+    background: black;
+    color: white;
+    height: 40px;
+}
+
+.jumbotron {
+    padding: 60px;
+    text-align: center;
+    background-image: url("/img/main_res.jpg");
+    color: white;   
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.jumbotron h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+}
+
+#firstSection, #secondSection, #thirdSection, #fourthSection, #aboutSection {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#firstSection h2, #secondSection h2, #thirdSection h2, #fourthSection h2, #partnersSection h2, #aboutSection h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: sans-serif;
+    position: relative;
+    border-bottom: 2px solid rgb(146, 112, 112);
+    padding-bottom: 15px;
+    margin-top: 1em;
+}
+
+#partnersSection {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: rgb(23, 32, 44);
+}
+
+#outreachSection {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: rgb(76, 90, 109);
+}
+
+#outreachSection h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: sans-serif;
+    position: relative;
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+    margin-top: 1em;
+}
+
+#date {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: .75em;
+}
+
+#date p {    
+    padding-left: 20em; 
+    font-weight: 800;
+}
+
+.container {
+    padding-bottom: 30px;
+}
+
+.button {
+    background-color: rgba(32, 30, 30, 0.808);
+    border: 3px solid white;
+    color: white;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+#middleButton {
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+#contentLinks {
+    text-align: center;
+}
+  
+#thirdSection p {
+    font-size: smaller;
+    margin-top: 20px;
+    color: rgb(49, 95, 231);
+    font-weight: bolder;
+}
+  
+#slides {
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-left: 0px;
+    border-right: 0px;
+} 
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: rgb(65, 65, 235);
+}
+
+
+.card p {
+    font-size: smaller;
+}
+
+.card-footer {
+    background-color: rgb(65, 65, 235);
+    color: white;
+    font-weight: 700;
+    text-align: left;
+    height: 40px;
+    padding: 6px 10px;
+    
+}
+
+.btn .fa-twitter {
+    color: white;
+    
+}
+
+.site-footer {
+    background-color: black;
+    color: white;
+    
+}
+
+#social {
+    padding-top: 60px;
+    border-bottom: 2px solid white;
+  
+}
+
+#social .fa-twitter, .fa-facebook, .fa-instagram, .fa-youtube{
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 30px;
+    width: 30px;
+    float: none;
+    color: white;
+}
+
+#contentLinks a{
+    padding-top: 20px;
+    color: white;
+}
+
+#contentLinks {
+    padding-top: 20px;
+    border-bottom: 2px solid white;
+    padding-left: 100px;
+}
+
+#stsciLogo {
+    text-align: left;
+    float: inline-start;
+    padding-top: 60px;
+    border-bottom: 2px solid white;
+}
+
+.site-footer p {
+    padding-top: 20px;
+}
+
+
+#menuButton {
+    padding-right: 2rem;
+}
+
+#contactBreadcrumb {
+    padding: 0px;
+    border: 0px;
+    margin-top: 0px;
+}
+
+#email, #feedback {
+    background-color: rgb(229, 226, 226);
+}
+
+#contactInfo div {
+    margin-top: 15px;
+}
+
+#contactInfo h5 {
+    font-weight: 900;
+}
+
+#launch {
+    display: block;
+}
+
+#liftOff {
+    background-color: rgb(230, 222, 222);
+}
+
+.card-body h5 {
+    font-size: smaller;
+    font-weight: 400;
+}

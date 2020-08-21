@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, inital-scale=1" />
+    
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+    <title>Hubblesite: Mini Version</title>  
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-dark sticky-top fixed-top">
+        <div class="row">
+            <div class="col-5 col-xs-5">
+                <picture>
+                    <img src="img/hs-logo-nasa.png"  class="img-fluid" media="(min-width: 992px)" media="(min-width: 992px)"/>
+                </picture>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-xs-6">
+            <div class="dropleft">
+                <button id="menuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="navbar-toggler-icon dropdown-toggle">  
+                </button>
+                <div class="dropdown-menu" aria-labelledby="menuButton">
+                    <h4 class="dropdown-header">Menu</h4>
+                    <a class="dropdown-item" href="index.html">Home</a>
+                    <a class="dropdown-item" href="aboutus.html">About Us</a>
+                    <a class="dropdown-item" href="#">Contact Us</a>
+                    <a class="dropdown-item" href="#">Images</a>
+                    <a class="dropdown-item" href="#">News</a>
+                    <a class="dropdown-item" href="#">Videos</a>    
+                  </div>
+            </div>
+        </div>
+    </div>      
+    </nav>
+
+    <header class="jumbotron jumbotron-fluid mb-0" style="background-image: url(/img/contact_banner.png); width: 100% img-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1><br></br>CONTACT US <br></br></h1>>   
+                </div>    
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid" id="contactBreadcrumb">
+        <div class="row">
+            <div class="col">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Contact</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-md-8">
+                <h2>SEND US A COMMENT</h2>
+                <p>Please tell us what you think about our site or report a technical problem</p><br />
+            </div>
+            <div class="col-md-8">
+                <form>
+                    <div class="form-group row"> 
+                        <div class="col-xs-7">
+                            <label for="email" class="col-xs-12 col-form-label">EMAIL</label>
+                        <div class="col-xs-8">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                            <p>Please provide your email if you would like a response.</p>
+                        </div>
+                        </div>
+                    </div> 
+                    <div class="form-group row">  
+                        <div class="col-xs-7">
+                            <label for="feedback" class="col-xs-12 col-form-label">LEAVE A COMMENT*</label>
+                        <div class="col-xs-7">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                            <p>*Denotes a required field</p>
+                        </div>
+                        <div class="col-xs-4">
+                            <button type="submit" class="btn btn-primary rounded-pill" >Submit</button>
+                        </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container-fluid bg-dark text-white" >
+        <div class="row text-center" id="contactInfo">
+            <div class="col-6">
+                <h5>Address</h5>
+                <address>
+                        Space Telescope Science Institute<br />
+                        Office of Public Outreach<br />
+                        3700 San Martin Drive <br />
+                        Baltimore, MD 21218
+                </address><br /><br />
+            </div>
+            <div class="col-6">
+                <h5>Phone</h5>
+                <phone>
+                    Please leave a voicemail.<br />
+                    410-338-4444<br />
+                </phone>
+            </div>
+        </div>
+    </div>    
+
+
+    <footer class="site-footer">
+        <div class="col-12 text-center">
+            <p>
+                The NASA Hubble Space Telescope is a project of international cooperation between NASA and ESA. 
+                AURA's Space Telescope Science Institute is Baltimore, Maryland, conducts Hubble science operations.
+            </p>
+         </div>
+        <div class="container">
+            <div class="row">
+                <div id="stsciLogo" class="col-xs-4 text-left">
+                    <img src="/img/stsci_dark.png">
+                </div>
+                <div class="col-xs-4 text-center" id="contentLinks">
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li> 
+                        <li><a href="aboutus.html">About Us</a></li>  
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Images</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Videos</a></li>
+                    </ul>   
+                </div>
+                <div class="col-xs-4 text-right" id="social">
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>            
+    </footer>
+    
+
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"> </script>  
+
+    <script>
+    $('#recipeCarousel').carousel({ interval: 10000 })
+    $('.carousel .carousel-item').each(function() {
+            var minPerSlide = 3;
+            var next = $(this).next();
+            if (!next.length) {
+            next = $(this).siblings(':first');
+            }
+            next.children(':first-child').clone().appendTo($(this));
+            
+            for (var i=0;i<minPerSlide;i++) {
+                next=next.next();
+                if (!next.length) {
+                    next = $(this).siblings(':first');
+                }
+                next.children(':first-child').clone().appendTo($(this));
+            }
+        });
+    </script>
+
+</body>
+</html>

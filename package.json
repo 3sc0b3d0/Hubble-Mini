@@ -1,0 +1,22 @@
+{
+  "name": "portfolio_hubble",
+  "version": "1.0.0",
+  "description": "This is a rendition of the official NASA Hubble Site. It has been scaled down in order to be more beginner friendly.",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mariana Escobedo",
+  "license": "ISC"
+}
